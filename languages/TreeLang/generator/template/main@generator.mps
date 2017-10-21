@@ -42,6 +42,9 @@
       <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="ln" index="29HgVG">
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
+      <concept id="1114729360583" name="jetbrains.mps.lang.generator.structure.CopySrcListMacro" flags="ln" index="2b32R4">
+        <child id="1168278589236" name="sourceNodesQuery" index="2P8S$" />
+      </concept>
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
       </concept>
@@ -63,9 +66,6 @@
       </concept>
       <concept id="1167951910403" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" flags="in" index="3JmXsc" />
       <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
-      <concept id="1118786554307" name="jetbrains.mps.lang.generator.structure.LoopMacro" flags="ln" index="1WS0z7">
-        <child id="1167952069335" name="sourceNodesQuery" index="3Jn$fo" />
-      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
@@ -124,15 +124,15 @@
           <node concept="1pGfFk" id="3iNEU51JCx2" role="2ShVmc">
             <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
           </node>
-          <node concept="1WS0z7" id="3iNEU51JDL1" role="lGtFl">
-            <node concept="3JmXsc" id="3iNEU51JDL4" role="3Jn$fo">
-              <node concept="3clFbS" id="3iNEU51JDL5" role="2VODD2">
-                <node concept="3clFbF" id="3iNEU51JDLb" role="3cqZAp">
-                  <node concept="2OqwBi" id="3iNEU51JDL6" role="3clFbG">
-                    <node concept="3Tsc0h" id="3iNEU51JDL9" role="2OqNvi">
+          <node concept="2b32R4" id="3iNEU51KUwh" role="lGtFl">
+            <node concept="3JmXsc" id="3iNEU51KUwk" role="2P8S$">
+              <node concept="3clFbS" id="3iNEU51KUwl" role="2VODD2">
+                <node concept="3clFbF" id="3iNEU51KUwr" role="3cqZAp">
+                  <node concept="2OqwBi" id="3iNEU51KUwm" role="3clFbG">
+                    <node concept="3Tsc0h" id="3iNEU51KUwp" role="2OqNvi">
                       <ref role="3TtcxE" to="uw99:3iNEU51JlOu" resolve="sub" />
                     </node>
-                    <node concept="30H73N" id="3iNEU51JDLa" role="2Oq$k0" />
+                    <node concept="30H73N" id="3iNEU51KUwq" role="2Oq$k0" />
                   </node>
                 </node>
               </node>
@@ -140,7 +140,7 @@
           </node>
         </node>
       </node>
-      <node concept="raruj" id="3iNEU51JCOY" role="lGtFl" />
+      <node concept="raruj" id="3iNEU51Lg2X" role="lGtFl" />
     </node>
   </node>
 </model>
